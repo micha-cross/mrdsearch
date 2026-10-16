@@ -24,7 +24,7 @@ export function readSearchParams(search = window.location.search): SearchState {
   }
 }
 
-/** Could have maybe been simpler with a router but kept it lightweight as there is just one page for this task */
+// Could have maybe been simpler with a router but kept it lightweight as there is just one page for this task 
 export function writeSearchParams(state: SearchState) {
   const params = new URLSearchParams()
   const query = state.query.trim()

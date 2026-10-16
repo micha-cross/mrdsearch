@@ -11,13 +11,12 @@
 
   const SEARCH_DEBOUNCE_MS = 250
 
-  // Initial search state comes from the URL so a shared or saved link restores it
+  // Initial state
   const initial = readSearchParams()
 
   let query = $state(initial.query)
   let categories = $state<string[]>([])
   let selectedCategories = $state<string[]>(initial.categories)
-  // The API sorts by one field at a time, so the sort toggles are mutually exclusive
   let sort = $state<{ field: ProductSort; order: SortOrder } | null>(initial.sort)
   let products = $state<Product[]>([])
   let loading = $state(true)
@@ -45,9 +44,7 @@
   let searchTimer: ReturnType<typeof setTimeout> | undefined
   let searchController: AbortController | undefined
 
-  // Debounced; cancels any pending timer and in-flight request so a stale
-  // response never overwrites a newer one. Reads the current filters when the
-  // timer fires, so callers don't need to pass them in
+  // Debounced and abort controller to cancel in-flight calls and make sure cancled calls to overwrite with stale data
   function search() {
     clearTimeout(searchTimer)
     searchController?.abort()
@@ -123,7 +120,6 @@
     />
   </div>
 
-  <!-- The wrapper holds the spinner overlay so it stays put while the list scrolls -->
   <div class="relative min-h-0 flex-1">
     <section class="h-full overflow-y-auto rounded-xl bg-slate-50 p-3" aria-busy={loading}>
       {#if error}

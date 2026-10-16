@@ -29,6 +29,7 @@ The Vite dev server proxies `/api/*` to `http://localhost:3000`, so the client c
 | `npm run build` | Compile TS to `dist/` | Build to `dist/` |
 | `npm start` / `npm run preview` | Run compiled server | Serve the production build |
 | `npm run check` | Type-check | Type-check (svelte-check) |
+| `npm run test` | Vite Test | Run test cases |
 
 The API port can be changed with the `PORT` environment variable.
 

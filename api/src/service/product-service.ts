@@ -48,7 +48,7 @@ export class ProductService {
     }
 
     // product_info is null when the downstream service fails for that product - could have introduced something more
-    // complex but kept it simple
+    // complex like an error type but kept it simple
     private async processProductInfo(products: Product[]) {
         return await Promise.all(
             products.map(async (product) => {
@@ -70,29 +70,3 @@ export class ProductService {
     }
 
 }
-
-
-
-// export async function processProductInfo(
-//     products: Product[],
-//     productInfoProvider: ProductInfoProvider = new ProductInfoProvider(),
-// ): Promise<ProductWithInfo[]> {
-//     return await Promise.all(
-//         products.map(async (product) => {
-//             try {
-//                 const enrichment = await productInfoProvider.getProductInfo(product.id);
-
-//                 return {
-//                     ...product,
-//                     product_info: enrichment,
-//                 };
-//             } catch {
-//                 return {
-//                     ...product,
-//                     product_info: null,
-//                 };
-//             }
-//         }),
-//     );
-
-// }

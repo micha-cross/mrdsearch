@@ -1,7 +1,6 @@
 import type { ErrorRequestHandler, RequestHandler } from 'express'
 import type { ErrorResponse } from '../types.ts'
 
-/** An error that is safe to show the caller, with the HTTP status to send */
 export class HttpError extends Error {
   constructor(
     public readonly status: number,
@@ -14,12 +13,10 @@ export class HttpError extends Error {
   }
 }
 
-/** Catches requests that no route handled */
 export const notFoundHandler: RequestHandler = (req, _res, next) => {
   next(new HttpError(404, 'NOT_FOUND', `No route for ${req.method} ${req.path}`))
 }
 
-/** Errors thrown by express.json(), e.g. malformed JSON or an oversized body */
 interface BodyParserError extends Error {
   type: string
   status: number
@@ -39,11 +36,6 @@ function toHttpError(err: unknown): HttpError {
   return new HttpError(500, 'INTERNAL_ERROR', 'Something went wrong')
 }
 
-/**
- * Turns any error into the { error: { code, message, details? } } shape. Express 5 forwards
- * rejected async handlers here, so routes can simply throw. Unexpected errors are logged
- * in full but the caller only gets a generic message, never a stack trace
- */
 export const errorHandler: ErrorRequestHandler = (err, req, res, next) => {
   if (res.headersSent) return next(err)
 

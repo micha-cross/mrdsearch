@@ -3,7 +3,6 @@ import { HttpError } from './errors.ts'
 
 const allowedOrigins = ['http://localhost:5173'] // TODO - make env variable. This is fine for local demo (parseAllowedOrigins())
 
-/** Requests without an Origin header (curl, server-to-server) aren't from a browser page, so they pass */
 export function isOriginAllowed(origin: string | undefined, allowedOrigins: string[]): boolean {
   return !origin || allowedOrigins.includes(origin)
 }

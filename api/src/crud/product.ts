@@ -31,27 +31,6 @@ export class ProductCrud implements ProductRepo {
                 (cats.length === 0 || cats.includes(product.category.toLowerCase())),
         )
 
-
-        // let results = await getProductInfo(filteredProducts);
-
-        // if (sort === "rating") {
-        //     const direction = order === 'asc' ? 1 : -1
-        //     results = [...results].sort((a, b) => direction * (a.rating - b.rating))
-        // }
-        // else if (sort === "price") {
-        //     const direction = order === 'asc' ? 1 : -1
-        //     results = [...results].sort((a, b) => {
-        //         const priceA = a.product_info?.price;
-        //         const priceB = b.product_info?.price;
-
-        //         if (priceA == null && priceB == null) return 0;
-        //         if (priceA == null) return 1;
-        //         if (priceB == null) return -1;
-
-        //         return direction * (priceA - priceB);
-        //     })
-        // }
-
         return filteredProducts;
     }
 

@@ -1,13 +1,10 @@
 import { ProductInfo } from "../types.ts";
 import productInfo from '../data/product-info.json' with { type: 'json' }
 
-/** Simulated downstream latency range, in milliseconds */
 const MIN_LATENCY_MS = 100
 const MAX_LATENCY_MS = 800
-/** Chance (0 to 1) that a downstream call fails */
 const FAILURE_RATE = 0.1
 
-/** Where price and availability come from. DownstreamProvider is the real one; tests pass a fake */
 export interface DownstreamProvider {
     getProductInfo(id: number): Promise<ProductInfo>
 }

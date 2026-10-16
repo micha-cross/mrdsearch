@@ -8,7 +8,6 @@ import { productSearchRateLimit } from '../http/rate-limit.ts'
 export const productsRouter = Router()
 
 
-// POST /api/products  { "query": "bread", "category": "Bakery", "sort": "popularity", "order": "desc" }
 productsRouter.post(
   '/api/products',
   productSearchRateLimit,

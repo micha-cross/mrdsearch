@@ -13,10 +13,9 @@ const products: Product[] = [
 const productInfo: ProductInfo[] = [
   { id: 1, price: 5.49, available: true },
   { id: 2, price: 3.75, available: false },
-  // No entry for id 3, so the fake provider fails for it like the real downstream can
+  // Entry 3 is for downstream failure
 ]
 
-// Fakes return fixed data straight away: no JSON files, latency or random failures
 const fakeProductSource: ProductRepo = {
   searchProducts: async () => products,
 }
