@@ -37,6 +37,4 @@ Browser requests are only accepted from the origins in `ALLOWED_ORIGINS`, a comm
 list that defaults to `http://localhost:5173`. Other origins get a `403`; requests with no
 `Origin` header (curl, server-to-server) are allowed.
 
-```sh
-ALLOWED_ORIGINS=http://localhost:5173,https://mrdsearch.example.com npm run dev
-```
+
