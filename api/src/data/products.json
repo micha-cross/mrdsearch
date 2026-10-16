@@ -1,0 +1,224 @@
+[
+  {
+    "id": 1,
+    "name": "Sourdough Loaf",
+    "category": "Bakery",
+    "rating": 4.6
+  },
+  {
+    "id": 2,
+    "name": "Butter Croissant",
+    "category": "Bakery",
+    "rating": 4.8
+  },
+  {
+    "id": 3,
+    "name": "Blueberry Muffin",
+    "category": "Bakery",
+    "rating": 4.2
+  },
+  {
+    "id": 4,
+    "name": "Cinnamon Roll",
+    "category": "Bakery",
+    "rating": 4.5
+  },
+  {
+    "id": 5,
+    "name": "Whole Wheat Bagel",
+    "category": "Bakery",
+    "rating": 3.9
+  },
+  {
+    "id": 6,
+    "name": "Espresso",
+    "category": "Coffee",
+    "rating": 4.7
+  },
+  {
+    "id": 7,
+    "name": "Cappuccino",
+    "category": "Coffee",
+    "rating": 4.6
+  },
+  {
+    "id": 8,
+    "name": "Iced Caramel Latte",
+    "category": "Coffee",
+    "rating": 4.4
+  },
+  {
+    "id": 9,
+    "name": "Cold Brew",
+    "category": "Coffee",
+    "rating": 4.3
+  },
+  {
+    "id": 10,
+    "name": "Green Tea",
+    "category": "Tea",
+    "rating": 4.0
+  },
+  {
+    "id": 11,
+    "name": "Chai Latte",
+    "category": "Tea",
+    "rating": 4.5
+  },
+  {
+    "id": 12,
+    "name": "Matcha Latte",
+    "category": "Tea",
+    "rating": 4.1
+  },
+  {
+    "id": 13,
+    "name": "Fresh Orange Juice",
+    "category": "Juices & Smoothies",
+    "rating": 4.4
+  },
+  {
+    "id": 14,
+    "name": "Strawberry Banana Smoothie",
+    "category": "Juices & Smoothies",
+    "rating": 4.3
+  },
+  {
+    "id": 15,
+    "name": "Green Detox Smoothie",
+    "category": "Juices & Smoothies",
+    "rating": 3.6
+  },
+  {
+    "id": 16,
+    "name": "Sparkling Water",
+    "category": "Soft Drinks",
+    "rating": 3.8
+  },
+  {
+    "id": 17,
+    "name": "Classic Cola",
+    "category": "Soft Drinks",
+    "rating": 4.2
+  },
+  {
+    "id": 18,
+    "name": "Homemade Lemonade",
+    "category": "Soft Drinks",
+    "rating": 4.5
+  },
+  {
+    "id": 19,
+    "name": "Margherita Pizza",
+    "category": "Mains",
+    "rating": 4.7
+  },
+  {
+    "id": 20,
+    "name": "Classic Cheeseburger",
+    "category": "Mains",
+    "rating": 4.6
+  },
+  {
+    "id": 21,
+    "name": "Chicken Caesar Salad",
+    "category": "Mains",
+    "rating": 4.1
+  },
+  {
+    "id": 22,
+    "name": "Spaghetti Carbonara",
+    "category": "Mains",
+    "rating": 4.5
+  },
+  {
+    "id": 23,
+    "name": "Vegetable Stir Fry",
+    "category": "Mains",
+    "rating": 3.9
+  },
+  {
+    "id": 24,
+    "name": "Grilled Salmon",
+    "category": "Mains",
+    "rating": 4.4
+  },
+  {
+    "id": 25,
+    "name": "Tomato Basil Soup",
+    "category": "Starters",
+    "rating": 4.0
+  },
+  {
+    "id": 26,
+    "name": "Garlic Bread",
+    "category": "Starters",
+    "rating": 4.3
+  },
+  {
+    "id": 27,
+    "name": "Loaded Nachos",
+    "category": "Starters",
+    "rating": 4.4
+  },
+  {
+    "id": 28,
+    "name": "Sea Salt Fries",
+    "category": "Snacks",
+    "rating": 4.5
+  },
+  {
+    "id": 29,
+    "name": "Hummus & Pita",
+    "category": "Snacks",
+    "rating": 4.2
+  },
+  {
+    "id": 30,
+    "name": "Trail Mix",
+    "category": "Snacks",
+    "rating": 3.7
+  },
+  {
+    "id": 31,
+    "name": "Chocolate Lava Cake",
+    "category": "Desserts",
+    "rating": 4.9
+  },
+  {
+    "id": 32,
+    "name": "New York Cheesecake",
+    "category": "Desserts",
+    "rating": 4.7
+  },
+  {
+    "id": 33,
+    "name": "Tiramisu",
+    "category": "Desserts",
+    "rating": 4.6
+  },
+  {
+    "id": 34,
+    "name": "Vanilla Ice Cream",
+    "category": "Desserts",
+    "rating": 4.1
+  },
+  {
+    "id": 35,
+    "name": "Craft IPA",
+    "category": "Alcoholic Drinks",
+    "rating": 4.2
+  },
+  {
+    "id": 36,
+    "name": "House Red Wine",
+    "category": "Alcoholic Drinks",
+    "rating": 3.9
+  },
+  {
+    "id": 37,
+    "name": "Mojito",
+    "category": "Alcoholic Drinks",
+    "rating": 4.5
+  }
+]

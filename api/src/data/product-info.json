@@ -1,0 +1,187 @@
+[
+  {
+    "id": 1,
+    "price": 5.49,
+    "available": true
+  },
+  {
+    "id": 2,
+    "price": 2.25,
+    "available": true
+  },
+  {
+    "id": 3,
+    "price": 2.75,
+    "available": true
+  },
+  {
+    "id": 4,
+    "price": 3.25,
+    "available": true
+  },
+  {
+    "id": 5,
+    "price": 1.5,
+    "available": true
+  },
+  {
+    "id": 6,
+    "price": 2.5,
+    "available": true
+  },
+  {
+    "id": 7,
+    "price": 3.75,
+    "available": true
+  },
+  {
+    "id": 8,
+    "price": 4.95,
+    "available": false
+  },
+  {
+    "id": 9,
+    "price": 4.25,
+    "available": true
+  },
+  {
+    "id": 10,
+    "price": 2.75,
+    "available": true
+  },
+  {
+    "id": 11,
+    "price": 4.5,
+    "available": true
+  },
+  {
+    "id": 12,
+    "price": 5.25,
+    "available": true
+  },
+  {
+    "id": 13,
+    "price": 3.95,
+    "available": true
+  },
+  {
+    "id": 14,
+    "price": 5.5,
+    "available": true
+  },
+  {
+    "id": 15,
+    "price": 6.25,
+    "available": true
+  },
+  {
+    "id": 16,
+    "price": 1.75,
+    "available": false
+  },
+  {
+    "id": 17,
+    "price": 1.95,
+    "available": true
+  },
+  {
+    "id": 18,
+    "price": 3.25,
+    "available": true
+  },
+  {
+    "id": 19,
+    "price": 12.5,
+    "available": true
+  },
+  {
+    "id": 20,
+    "price": 11.95,
+    "available": true
+  },
+  {
+    "id": 21,
+    "price": 10.5,
+    "available": true
+  },
+  {
+    "id": 22,
+    "price": 13.75,
+    "available": true
+  },
+  {
+    "id": 23,
+    "price": 10.95,
+    "available": true
+  },
+  {
+    "id": 24,
+    "price": 18.5,
+    "available": false
+  },
+  {
+    "id": 25,
+    "price": 6.5,
+    "available": true
+  },
+  {
+    "id": 26,
+    "price": 4.75,
+    "available": true
+  },
+  {
+    "id": 27,
+    "price": 8.95,
+    "available": true
+  },
+  {
+    "id": 28,
+    "price": 3.95,
+    "available": true
+  },
+  {
+    "id": 29,
+    "price": 5.75,
+    "available": true
+  },
+  {
+    "id": 30,
+    "price": 4.25,
+    "available": true
+  },
+  {
+    "id": 31,
+    "price": 7.25,
+    "available": true
+  },
+  {
+    "id": 32,
+    "price": 6.75,
+    "available": false
+  },
+  {
+    "id": 33,
+    "price": 7.5,
+    "available": true
+  },
+  {
+    "id": 34,
+    "price": 4.5,
+    "available": true
+  },
+  {
+    "id": 35,
+    "price": 6.5,
+    "available": true
+  },
+  {
+    "id": 36,
+    "price": 8.0,
+    "available": true
+  },
+  {
+    "id": 37,
+    "price": 9.5,
+    "available": true
+  }
+]
